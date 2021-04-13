@@ -63,5 +63,5 @@ const pizzaController = {
       .catch(err => res.status(400).json(err));
   }
 }
-module.exports = PizzaController;
+module.exports = pizzaController;
 
